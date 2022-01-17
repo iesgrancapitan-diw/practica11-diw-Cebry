@@ -38,7 +38,7 @@
     --bg-color: var(--primary-color-light);
     --bg-card-color: var(--light-color);
     --bg-dark-card-color: var(--primary-color-dark);
-    --title-color: var(var(--dark-color));
+    --title-color: var(--dark-color);
     --final-date-color: var(--dark-color-dark);
 
     --btn-del-color: var(--primary-color-dark);
