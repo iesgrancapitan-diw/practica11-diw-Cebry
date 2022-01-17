@@ -254,11 +254,10 @@ nav {
     background-image: var(--svg);
     background-repeat: no-repeat;
     width: 100%;
-    *height: var(--heigth-header-nav);
+    padding: var(--padding);
 }
 
 nav>ul {
-    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -268,7 +267,6 @@ header {
     background-image: var(--svg);
     background-repeat: no-repeat;
     background-position: 0 90%;
-    *height: var(--heigth-header-nav);
 
     width: 100%;
 
