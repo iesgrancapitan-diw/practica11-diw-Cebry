@@ -129,10 +129,6 @@ ul {
 /* forma de las cartas */
 .round-border {
     border-radius: var(--border-radius);
-    -webkit-border-radius: var(--border-radius);
-    -moz-border-radius: var(--border-radius);
-    -ms-border-radius: var(--border-radius);
-    -o-border-radius: var(--border-radius);
 }
 
 /* coloreado de cartas */
@@ -283,12 +279,10 @@ header {
 }
 
 header:first-child {
-    flex-basis: 1;
     flex-grow: 1;
 }
 
 header:last-child {
-    flex-basis: 1;
     flex-grow: 0;
 }
 
@@ -325,10 +319,6 @@ textarea {
     min-width: 1rem;
     border: none;
     border-radius: var(--border-radius);
-    -webkit-border-radius: var(--border-radius);
-    -moz-border-radius: var(--border-radius);
-    -ms-border-radius: var(--border-radius);
-    -o-border-radius: var(--border-radius);
 }
 
 textarea {
@@ -562,10 +552,6 @@ h1:hover {
     border: 1px solid var(--slider-border-color);
 
     border-radius: 99999px;
-    -webkit-border-radius: 99999px;
-    -moz-border-radius: 99999px;
-    -ms-border-radius: 99999px;
-    -o-border-radius: 99999px;
 }
 
 #toggleTheme {
